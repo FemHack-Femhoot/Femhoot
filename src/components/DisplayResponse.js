@@ -9,7 +9,6 @@ export default function DisplayResponse({
   const [chosenAnswer, setChosenAnswer] = useState("");
 
   useEffect(() => {
-    console.log({ chosenAnswer, rightAnswer });
     if (chosenAnswer === rightAnswer) {
       setIsRightAnswer(true);
     } else {
@@ -35,8 +34,7 @@ export default function DisplayResponse({
     <div className="w-4/5 flex flex-col">
       {randomResponses.map((item) => (
         <button
-          className="text-white rounded-md my-1 w-full"
-          style={{ background: "#7b3bec" }}
+          className="text-femhoot-blue py-1 my-2 w-full border-2 border-femhoot-blue rounded-full hover:bg-femhoot-blue hover:text-white"
           key={item}
           onClick={() => {
             setChosenAnswer(item);

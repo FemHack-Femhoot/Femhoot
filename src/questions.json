@@ -38,106 +38,106 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
-      "correct_answer": "Green",
-      "incorrect_answers": ["Red", "Blue", "Yellow"]
+      "question": "Who is known as one of the famous women in technology who inspired Steve Jobs creation of the first Apple computer as, without her, the Apple desktop environment may not look the way it does today?",
+      "correct_answer": "Adele Goldberg",
+      "incorrect_answers": ["Mary Wilkes", "Annie Easley", "Grace Hopper"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
-      "correct_answer": "Heat Sink",
-      "incorrect_answers": ["CPU Vent", "Temperature Decipator", "Heat Vent"]
+      "question": "How many of Sillicon Valley executives are women?",
+      "correct_answer": "11%",
+      "incorrect_answers": ["8%", "15%", "18%"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which operating system was released first?",
-      "correct_answer": "Mac OS",
-      "incorrect_answers": ["Windows", "Linux", "OS\/2"]
+      "question": "Select the city with the largest number of tech startups founded by women",
+      "correct_answer": "Chicago",
+      "incorrect_answers": ["Silicon Valley", "Los Angeles", "London"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": ".rs is the top-level domain for what country?",
-      "correct_answer": "Serbia",
-      "incorrect_answers": ["Romania", "Russia", "Rwanda"]
+      "question": "Who was the first woman in being IBM CEO (from 2012-2020)?",
+      "correct_answer": "Ginni Rometty",
+      "incorrect_answers": ["Millie Hughes", "Gina Bianchini", "Melanie Perkins"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which data structure does FILO apply to?",
-      "correct_answer": "Stack",
-      "incorrect_answers": ["Queue", "Heap", "Tree"]
+      "question": "Who was the first woman engineer in Spain in 1929?",
+      "correct_answer": "Pilar Careaga",
+      "incorrect_answers": ["Ana María Prieto", "Ángela Ruiz Robles", "Evelyn Berezin"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What does the term GPU stand for?",
-      "correct_answer": "Graphics Processing Unit",
-      "incorrect_answers": ["Gaming Processor Unit", "Graphite Producing Unit", "Graphical Proprietary Unit"]
+      "question": "Who was Spain first woman Computer Programmer?",
+      "correct_answer": "Ana María Prieto",
+      "incorrect_answers": ["Ángela Ruiz Robles", "Pilar Careaga", "Evelyn Berezin"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the main CPU is the Sega Mega Drive \/ Sega Genesis?",
-      "correct_answer": "Motorola 68000",
-      "incorrect_answers": ["Zilog Z80", "Yamaha YM2612", "Intel 8088"]
+      "question": "Who invented the first English-like data processing language – which sparked the development of COBOL?",
+      "correct_answer": "Grace Hopper",
+      "incorrect_answers": ["Radia Perlman", "Ada Lovelace", "Mary Kenneth Keller"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What was the first Android version specifically optimized for tablets?",
-      "correct_answer": "Honeycomb",
-      "incorrect_answers": ["Eclair", "Froyo", "Marshmellow"]
+      "question": "Who was the first woman to receive a PhD in Computer Science?",
+      "correct_answer": "Sister Mary Kenneth Keller",
+      "incorrect_answers": ["Radia Perlman", "Ada Lovelace", "Grace Hopper"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Released in 2001, the first edition of Apple&#039;s Mac OS X operating system (version 10.0) was given what animal code name?",
-      "correct_answer": "Cheetah",
-      "incorrect_answers": ["Puma", "Tiger", "Leopard"]
+      "question": "Who was the woman that invented online dating?",
+      "correct_answer": "Joan Ball",
+      "incorrect_answers": ["Adele Goldberg", "Radia Perlman", "Grace Hopper"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The C programming language was created by this American computer scientist. ",
-      "correct_answer": "Dennis Ritchie",
-      "incorrect_answers": ["Tim Berners Lee", "al-Khw\u0101rizm\u012b", "Willis Ware"]
+      "question": "Which was the first international online women Hackaton?",
+      "correct_answer": "FemHack",
+      "incorrect_answers": ["WomenUnitedHack", "WomenHack", "GirlsHack"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "How long is an IPv6 address?",
-      "correct_answer": "128 bits",
-      "incorrect_answers": ["32 bits", "64 bits", "128 bytes"]
+      "question": "Who invented the 'secret communication system', the idea that eventually inspired Wi-Fi, PS and Bluetooth technology commonly used today?",
+      "correct_answer": "Hedy Lamarr",
+      "incorrect_answers": ["Annie Easley", "Grace Hopper", "Radia Perlman"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In computing, what does LAN stand for?",
-      "correct_answer": "Local Area Network",
-      "incorrect_answers": ["Long Antenna Node", "Light Access Node", "Land Address Navigation"]
+      "question": "Who was nicknamed “Mother of the Internet” due to invention of the algorithm behind the Spanning Tree Protocol (STP), that was instrumental in making today's internet possible?",
+      "correct_answer": "Radia Perlman",
+      "incorrect_answers": ["Grace Hopper", "Hedy Lamarr", "Adele Goldberg"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "How many bytes are in a single Kibibyte?",
-      "correct_answer": "1024",
-      "incorrect_answers": ["2400", "1000", "1240"]
+      "question": "Who invented the Data Secretary, the first electronic word processor?",
+      "correct_answer": "Evelyn Berezin",
+      "incorrect_answers": ["Hedy Lamarr", "Grace Hopper", "Adele Goldberg"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "The acronym &quot;RIP&quot; stands for which of these?",
-      "correct_answer": "Routing Information Protocol",
-      "incorrect_answers": ["Runtime Instance Processes", "Regular Interval Processes", "Routine Inspection Protocol"]
+      "question": "Which is the ratio of men to women in software engineering?",
+      "correct_answer": "5:1",
+      "incorrect_answers": ["5:2", "5:3", "5:4"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What was the name of the first Bulgarian personal computer?",
-      "correct_answer": "IMKO-1",
-      "incorrect_answers": ["Pravetz 82", "Pravetz 8D", "IZOT 1030"]
+      "question": "Which are the tech companies that hire most women?",
+      "correct_answer": "Companies with less than 1000 employees",
+      "incorrect_answers": ["Companies with 1000-1500 employees", "Companies with 1500-2000 employees", "Companies with more than 2000 employees"]
   }]
 }

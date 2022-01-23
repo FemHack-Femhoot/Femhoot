@@ -8,7 +8,18 @@ module.exports = {
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        femhoot: {
+          blue: "#227FA8",
+          dark: "#061A40",
+          red: "#EB7159",
+          orange: "#FFB433",
+          green: "#2CADBB",
+          light: "#F1E8DA",
+        },
+      },
+    },
   },
   variants: {},
   plugins: [],

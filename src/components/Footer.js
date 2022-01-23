@@ -2,11 +2,24 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-full flex items-end p-8 bottom-0">
+    <footer className="w-full flex items-end p-8 bottom-0 text-femhoot-dark">
       <p>Made with love by</p>
-      <a href="http://" className="pl-2">
-        XXX
+      <a href="https://github.com/carobatata" className="pl-2">
+        Carolina
       </a>
-    </div>
+      <span className="ml-2">|</span>
+      <a href="https://github.com/crisouteda" className="pl-2">
+        Cristina
+      </a>
+      <span className="ml-2">|</span>
+      <a href="https://github.com/MariviEscudero" className="pl-2">
+        Marivi
+      </a>
+      <span className="ml-2">|</span>
+      <a href="https://github.com/agustinaoh" className="pl-2">
+        Agustina
+      </a>{" "}
+      <span className="ml-3">♥</span>
+    </footer>
   );
 }
