@@ -1,32 +1,56 @@
-import React from 'react';
+import React, { useState } from "react";
+import results from "./questions.json";
+import DisplayResponse from "./components/DisplayResponse";
 
 function App() {
+  const data = results.results;
+  const getRandomIndex = () => Math.floor(Math.random() * data.length);
+  const [score, setScore] = useState(0);
+  const [questionNumber, setQuestionNumber] = useState(getRandomIndex());
+  const [questionCounter, setQuestionCounter] = useState(1);
+
   return (
     <div className="flex flex-col h-full items-center justify-center bg-gray-200 text-gray-700">
-      <div className="flex items-center">
-        <h1 className="text-6xl font-thin tracking-wider">Create React App + Tailwind CSS</h1>
-      </div>
-      <p className="my-6 tracking-wide">
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <div className="mt-6 flex justify-center">
-        <a
-          className="uppercase hover:underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="ml-10 uppercase hover:underline"
-          href="https://tailwindcss.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Tailwind
-        </a>
-      </div>
+      {questionCounter <= 10 ? (
+        <>
+          <span>{data[questionNumber]?.question}</span>
+          <DisplayResponse
+            responses={[
+              data[questionNumber]?.correct_answer,
+              ...data[questionNumber]?.incorrect_answers,
+            ]}
+          />
+          <button
+            onClick={() => {
+              setQuestionCounter(questionCounter + 1);
+              setQuestionNumber(getRandomIndex());
+            }}
+          >
+            Next Question
+          </button>
+          <button
+            onClick={() => {
+              setScore(score + 10);
+            }}
+          >
+            Right Answer
+          </button>
+          <span>Score: {score}</span>
+          <span>Question: {questionCounter} / 10</span>
+        </>
+      ) : (
+        <>
+          <span>final score: {score}</span>
+          <button
+            onClick={() => {
+              setScore(0);
+              setQuestionCounter(1);
+            }}
+          >
+            Play again
+          </button>
+        </>
+      )}
     </div>
   );
 }

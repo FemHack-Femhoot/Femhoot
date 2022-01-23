@@ -1,0 +1,143 @@
+{
+  "results": [{
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does GHz stand for?",
+      "correct_answer": "Gigahertz",
+      "incorrect_answers": ["Gigahotz", "Gigahetz", "Gigahatz"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+      "correct_answer": "C#",
+      "incorrect_answers": ["Java", "C++", "Objective-C"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In web design, what does CSS stand for?",
+      "correct_answer": "Cascading Style Sheet",
+      "incorrect_answers": ["Counter Strike: Source", "Corrective Style Sheet", "Computer Style Sheet"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
+      "correct_answer": "Neptune",
+      "incorrect_answers": ["Enceladus", "Pollux", "Saturn"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+      "correct_answer": "&lt;marquee&gt;&lt;\/marquee&gt;",
+      "incorrect_answers": ["&lt;scroll&gt;&lt;\/scroll&gt;", "&lt;move&gt;&lt;\/move&gt;", "&lt;slide&gt;&lt;\/slide&gt;"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
+      "correct_answer": "Green",
+      "incorrect_answers": ["Red", "Blue", "Yellow"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+      "correct_answer": "Heat Sink",
+      "incorrect_answers": ["CPU Vent", "Temperature Decipator", "Heat Vent"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which operating system was released first?",
+      "correct_answer": "Mac OS",
+      "incorrect_answers": ["Windows", "Linux", "OS\/2"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": ".rs is the top-level domain for what country?",
+      "correct_answer": "Serbia",
+      "incorrect_answers": ["Romania", "Russia", "Rwanda"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which data structure does FILO apply to?",
+      "correct_answer": "Stack",
+      "incorrect_answers": ["Queue", "Heap", "Tree"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What does the term GPU stand for?",
+      "correct_answer": "Graphics Processing Unit",
+      "incorrect_answers": ["Gaming Processor Unit", "Graphite Producing Unit", "Graphical Proprietary Unit"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the main CPU is the Sega Mega Drive \/ Sega Genesis?",
+      "correct_answer": "Motorola 68000",
+      "incorrect_answers": ["Zilog Z80", "Yamaha YM2612", "Intel 8088"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the first Android version specifically optimized for tablets?",
+      "correct_answer": "Honeycomb",
+      "incorrect_answers": ["Eclair", "Froyo", "Marshmellow"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Released in 2001, the first edition of Apple&#039;s Mac OS X operating system (version 10.0) was given what animal code name?",
+      "correct_answer": "Cheetah",
+      "incorrect_answers": ["Puma", "Tiger", "Leopard"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The C programming language was created by this American computer scientist. ",
+      "correct_answer": "Dennis Ritchie",
+      "incorrect_answers": ["Tim Berners Lee", "al-Khw\u0101rizm\u012b", "Willis Ware"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How long is an IPv6 address?",
+      "correct_answer": "128 bits",
+      "incorrect_answers": ["32 bits", "64 bits", "128 bytes"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In computing, what does LAN stand for?",
+      "correct_answer": "Local Area Network",
+      "incorrect_answers": ["Long Antenna Node", "Light Access Node", "Land Address Navigation"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many bytes are in a single Kibibyte?",
+      "correct_answer": "1024",
+      "incorrect_answers": ["2400", "1000", "1240"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The acronym &quot;RIP&quot; stands for which of these?",
+      "correct_answer": "Routing Information Protocol",
+      "incorrect_answers": ["Runtime Instance Processes", "Regular Interval Processes", "Routine Inspection Protocol"]
+  }, {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the name of the first Bulgarian personal computer?",
+      "correct_answer": "IMKO-1",
+      "incorrect_answers": ["Pravetz 82", "Pravetz 8D", "IZOT 1030"]
+  }]
+}
