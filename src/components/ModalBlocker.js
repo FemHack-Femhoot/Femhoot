@@ -29,7 +29,6 @@ export default function ModalBlocker({ user, setUser }) {
             Log in
           </button>
         </form>
-        <span>{userHelper}</span>
       </div>
     </div>
   );
