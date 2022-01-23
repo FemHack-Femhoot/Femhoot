@@ -115,7 +115,7 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Was nicknamed “Mother of the Internet” due to invention of the algorithm behind the Spanning Tree Protocol?",
+      "question": "Who was nicknamed “Mother of the Internet”?",
       "correct_answer": "Radia Perlman",
       "incorrect_answers": ["Grace Hopper", "Hedy Lamarr", "Adele Goldberg"]
   }, {

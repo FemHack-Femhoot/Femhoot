@@ -12,7 +12,7 @@ export default function ModalBlocker({ user, setUser }) {
           marginTop: "-20%",
         }}
       >
-        <form className="flex flex-col h-full justify-around items-center bg-femhoot-orange">
+        <form className="flex flex-col h-full justify-around items-center bg-femhoot-light rounded-lg">
           <label className="text-xl">Username:</label>
           <input
             type="text"

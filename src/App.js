@@ -9,7 +9,7 @@ import Image from "./img/fem.svg";
 
 function App() {
   const [isEndGame, setIsEndGame] = useState(false);
-  const [user, setUser] = useState("hola");
+  const [user, setUser] = useState("");
 
   return (
     <>
