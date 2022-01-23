@@ -1,5 +1,6 @@
 import React from "react";
 import CloseIcon from "./../assets/closeIcon";
+import Avatar from "./../img/Avatar.png";
 
 export default function ModalProfile({ user, setIsProfileOpen }) {
   const gameHistory = JSON.parse(localStorage.getItem("gameHistory"));
@@ -39,9 +40,13 @@ export default function ModalProfile({ user, setIsProfileOpen }) {
         >
           <CloseIcon />
         </div>
-        <span className="text-3xl text-center font-semibold capitalize">
-          {user}
-        </span>
+        <div className="w-full flex px-6 items-center justify-center">
+          <img src={Avatar} alt="" className="w-40 h-40 mr-12" />
+          <span className="text-3xl text-center font-semibold capitalize">
+            {user}
+          </span>
+        </div>
+
         <div className="flex ">
           <div className="flex w-full justify-center mb-4">
             {stats.map((item) => (
