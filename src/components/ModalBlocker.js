@@ -20,9 +20,9 @@ export default function ModalBlocker({ user, setUser }) {
     <div className="fixed w-screen h-screen z-40">
       <div className="opacity-20 bg-femhoot-red w-full h-screen" />
       <div
-        className="inset-1/2 bg-white w-2/5 absolute m-auto rounded-lg bg-orange-700"
+        className="inset-1/2 bg-white w-3/5 h-4/5 lg:h-3/5 absolute m-auto rounded-lg bg-orange-700"
         style={{
-          marginLeft: "-20%",
+          marginLeft: "-30%",
           marginTop: "-20%",
         }}
       >

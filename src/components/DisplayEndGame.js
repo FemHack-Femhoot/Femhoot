@@ -20,9 +20,11 @@ export default function DisplayEndGame({ setIsEndGame, user }) {
       title: "Average score",
       value:
         gameHistory[user].length > 1
-          ? gameHistory[user].reduce((a, b) => a + b, 0) /
-              gameHistory[user].length -
-            1
+          ? (
+              gameHistory[user].reduce((a, b) => a + b, 0) /
+                gameHistory[user].length -
+              1
+            ).toLocaleString(2)
           : 0,
     },
   ];
