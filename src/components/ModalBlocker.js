@@ -12,11 +12,11 @@ export default function ModalBlocker({ user, setUser }) {
           marginTop: "-20%",
         }}
       >
-        <form className="flex flex-col h-full justify-around items-center">
-          <label>Username:</label>
+        <form className="flex flex-col h-full justify-around items-center bg-femhoot-orange">
+          <label className="text-xl">Username:</label>
           <input
             type="text"
-            className="bg-femhoot-red"
+            className="bg-femhoot-red rounded-lg"
             value={userHelper}
             onChange={(e) => {
               setUserHelper(e.target.value);

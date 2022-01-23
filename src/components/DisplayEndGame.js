@@ -1,4 +1,5 @@
 import React from "react";
+import PercentageCircle from "./PercentageCircle";
 import Confetti from "react-confetti";
 import Hand from "./../img/11.svg";
 
@@ -17,62 +18,33 @@ export default function DisplayEndGame({ setIsEndGame, user }) {
         <Confetti width={width} height={height} recycle={false} />
 
         <div
-          className="flex w-full bg-white pl-36"
+          className="flex w-full bg-white pl-36 pb-4"
           style={{ borderTopRightRadius: 100, borderBottomRightRadius: 100 }}
         >
-          <div className="container">
-            <div
-              x-data="scrollProgress"
-              className="inline-flex items-center justify-center overflow-hidden rounded-full bottom-5 left-5"
-            >
-              <svg className="w-80 h-80">
-                <circle
-                  stroke-width="20"
-                  fill="transparent"
-                  r="120"
-                  cx="160"
-                  cy="160"
-                  style={{
-                    stroke: "#FFB433",
-                  }}
-                />
-                <circle
-                  fill="none"
-                  r="120"
-                  cx="160"
-                  cy="160"
-                  style={{
-                    stroke: "#EB7159",
-                    strokeWidth: "20",
-                    transition: "all 0.3s",
-                    strokeDasharray: 120 * 2 * Math.PI,
-                    strokeDashoffset:
-                      120 * 2 * Math.PI - (percent / 100) * 120 * 2 * Math.PI,
-                    strokeLinecap: "round",
-                  }}
-                />
-              </svg>
-              <span className="absolute text-7xl font-semibold text-femhoot-blue">{`${percent}%`}</span>
-            </div>
-            <div className="flex">
-              <div className="flex flex-col justify-center">
-                <span className="mr-12 nowrap">Acumulated score</span>
-                <span className="mr-12">{acumulatedScore}</span>
+          <div className="flex flex-col items-center w-full px-20">
+            <PercentageCircle percent={percent} />
+            <div className="flex w-full justify-center mb-4">
+              <div className="flex flex-col items-center mr-12">
+                <span className="nowrap">Acumulated score</span>
+                <span className="text-xl font-bold">{acumulatedScore}</span>
               </div>
-              <div className="flex flex-col justify-center">
-                <span className="mr-12 nowrap">Highest score</span>
-                <span className="mr-12">{maxScore}</span>
+              <div className="flex flex-col items-center mr-12">
+                <span className="nowrap">Highest score</span>
+                <span className="text-xl font-bold">{maxScore}</span>
               </div>
-              <div className="flex flex-col justify-center">
-                <span className="mr-12 nowrap">Average score</span>
-                <span className="mr-12">{averageScore.toFixed(2)}%</span>
+              <div className="flex flex-col items-center">
+                <span className="nowrap">Average score</span>
+                <span className="text-xl font-bold">
+                  {averageScore.toFixed(2)}%
+                </span>
               </div>
             </div>
+
             <button
               onClick={() => {
                 setIsEndGame(false);
               }}
-              className="bg-femhoot-red rounded-full text-femhoot-light px-6 py-2 uppercase font-semibold my-3"
+              className="bg-femhoot-red rounded-full text-femhoot-light px-6 py-2 uppercase font-semibold my-3 w-3/4"
               style={{ letterSpacing: "3px" }}
             >
               Play again

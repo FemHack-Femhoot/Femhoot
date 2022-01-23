@@ -33,12 +33,12 @@
       "difficulty": "medium",
       "question": "Which country has the largest population of female developers?",
       "correct_answer": "India",
-      "incorrect_answers": ["China", "Italy;", "United States"]
+      "incorrect_answers": ["China", "Italy", "United States"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who is known as one of the famous women in technology who inspired Steve Jobs creation of the first Apple computer as, without her, the Apple desktop environment may not look the way it does today?",
+      "question": "Who inspired the creation of the first Apple computer?",
       "correct_answer": "Adele Goldberg",
       "incorrect_answers": ["Mary Wilkes", "Annie Easley", "Grace Hopper"]
   }, {
@@ -73,14 +73,14 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who was Spain first woman Computer Programmer?",
+      "question": "Who was the first woman programmer in Spain?",
       "correct_answer": "Ana María Prieto",
       "incorrect_answers": ["Ángela Ruiz Robles", "Pilar Careaga", "Evelyn Berezin"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who invented the first English-like data processing language – which sparked the development of COBOL?",
+      "question": "Who invented the first English-like data processing language?",
       "correct_answer": "Grace Hopper",
       "incorrect_answers": ["Radia Perlman", "Ada Lovelace", "Mary Kenneth Keller"]
   }, {
@@ -108,14 +108,14 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who invented the 'secret communication system', the idea that eventually inspired Wi-Fi, PS and Bluetooth technology commonly used today?",
+      "question": "Who inspired the Wi-Fi, PS and Bluetooth technology commonly used today?",
       "correct_answer": "Hedy Lamarr",
       "incorrect_answers": ["Annie Easley", "Grace Hopper", "Radia Perlman"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who was nicknamed “Mother of the Internet” due to invention of the algorithm behind the Spanning Tree Protocol (STP), that was instrumental in making today's internet possible?",
+      "question": "Was nicknamed “Mother of the Internet” due to invention of the algorithm behind the Spanning Tree Protocol?",
       "correct_answer": "Radia Perlman",
       "incorrect_answers": ["Grace Hopper", "Hedy Lamarr", "Adele Goldberg"]
   }, {

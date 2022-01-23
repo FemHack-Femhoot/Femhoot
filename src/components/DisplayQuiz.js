@@ -7,7 +7,7 @@ const getRandomIndex = () => Math.floor(Math.random() * results.results.length);
 
 export default function DisplayQuiz({ isEndGame, setIsEndGame, user }) {
   const [score, setScore] = useState(0);
-  const [questionNumber, setQuestionNumber] = useState(getRandomIndex());
+  const [questionNumbers, setQuestionNumbers] = useState([getRandomIndex()]);
   const [questionCounter, setQuestionCounter] = useState(1);
   const [isRightAnswer, setIsRightAnswer] = useState(undefined);
 
@@ -15,9 +15,7 @@ export default function DisplayQuiz({ isEndGame, setIsEndGame, user }) {
     if (questionCounter > 10) {
       let gameHistory = JSON.parse(localStorage.getItem("gameHistory")) || {};
       if (Object.keys(gameHistory).includes(user)) {
-        console.log("aqui");
         gameHistory[user] = [...gameHistory[user], score];
-        console.log("rompe");
       } else {
         gameHistory[user] = [score];
       }
@@ -37,7 +35,11 @@ export default function DisplayQuiz({ isEndGame, setIsEndGame, user }) {
   }, [isRightAnswer]);
 
   useEffect(() => {
-    setQuestionNumber(getRandomIndex());
+    let rdmNumber;
+    while (!rdmNumber || questionNumbers.includes(rdmNumber)) {
+      rdmNumber = getRandomIndex();
+    }
+    setQuestionNumbers([...questionNumbers, rdmNumber]);
   }, [questionCounter]);
 
   return (
@@ -50,14 +52,14 @@ export default function DisplayQuiz({ isEndGame, setIsEndGame, user }) {
           {questionCounter} / 10
         </span>
         <span className="text-3xl font-semibold text-femhoot-dark mt-1 mb-6">
-          {data[questionNumber]?.question}
+          {data[questionNumbers.slice(-1)]?.question}
         </span>
         <DisplayResponse
           responses={[
-            data[questionNumber]?.correct_answer,
-            ...data[questionNumber]?.incorrect_answers,
+            data[questionNumbers.slice(-1)]?.correct_answer,
+            ...data[questionNumbers.slice(-1)]?.incorrect_answers,
           ]}
-          rightAnswer={data[questionNumber]?.correct_answer}
+          rightAnswer={data[questionNumbers.slice(-1)]?.correct_answer}
           setIsRightAnswer={setIsRightAnswer}
         />
       </div>

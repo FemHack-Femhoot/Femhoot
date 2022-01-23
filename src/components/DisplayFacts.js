@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import women from "./../women-in-tech-new.json";
 import Image from "./../img/quotes.svg";
 
-// console.log(women);
-
 export default function DisplayFacts() {
   const [woman, setWoman] = useState(
     women[Math.floor(Math.random() * women.length)]

@@ -17,7 +17,7 @@ function App() {
       <div className="h-full w-screen bg-femhoot-light flex flex-col items-center">
         <Topbar setUser={setUser} />
         <div className="flex flex-col h-full items-center justify-center text-gray-700">
-          {!isEndGame ? (
+          {isEndGame ? (
             <DisplayEndGame setIsEndGame={setIsEndGame} user={user} />
           ) : (
             <div className="w-full flex justify-between">
