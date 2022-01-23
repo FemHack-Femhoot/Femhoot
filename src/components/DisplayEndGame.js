@@ -8,10 +8,19 @@ const width = window.innerWidth;
 
 export default function DisplayEndGame({ setIsEndGame, user }) {
   const gameHistory = JSON.parse(localStorage.getItem("gameHistory"));
-  const acumulatedScore = gameHistory[user].reduce((a, b) => a + b, 0);
-  const maxScore = Math.max(...gameHistory[user]);
-  const averageScore = acumulatedScore / gameHistory[user].length;
   const percent = gameHistory[user].slice(-1);
+  const stats = [
+    {
+      title: "Acumulated score",
+      value: gameHistory[user].reduce((a, b) => a + b, 0),
+    },
+    { title: "Highest score", value: Math.max(...gameHistory[user]) },
+    {
+      title: "Average score",
+      value:
+        gameHistory[user].reduce((a, b) => a + b, 0) / gameHistory[user].length,
+    },
+  ];
   return (
     <>
       <div className="flex w-screen items-center">
@@ -28,22 +37,16 @@ export default function DisplayEndGame({ setIsEndGame, user }) {
           <div className="flex flex-col items-center w-full px-20">
             <PercentageCircle percent={percent} />
             <div className="flex w-full justify-center mb-4">
-              <div className="flex flex-col items-center mr-12">
-                <span className="nowrap">Acumulated score</span>
-                <span className="text-xl font-bold">{acumulatedScore}</span>
-              </div>
-              <div className="flex flex-col items-center mr-12">
-                <span className="nowrap">Highest score</span>
-                <span className="text-xl font-bold">{maxScore}</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <span className="nowrap">Average score</span>
-                <span className="text-xl font-bold">
-                  {averageScore.toFixed(2)}%
-                </span>
-              </div>
+              {stats.map((item) => (
+                <div
+                  className="flex flex-col items-center mr-12"
+                  key={item?.title}
+                >
+                  <span className="nowrap">{item?.title}</span>
+                  <span className="text-xl font-bold">{item?.value}</span>
+                </div>
+              ))}
             </div>
-
             <button
               onClick={() => {
                 setIsEndGame(false);

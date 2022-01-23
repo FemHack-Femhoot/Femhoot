@@ -6,17 +6,17 @@ export default function ModalBlocker({ user, setUser }) {
     <div className="fixed w-screen h-screen z-40">
       <div className="opacity-20 bg-femhoot-red w-full h-screen" />
       <div
-        className="inset-1/2 bg-white w-2/5 absolute m-auto rounded-lg bg-orange-700 shadow-xl"
+        className="inset-1/2 bg-white w-2/5 absolute m-auto rounded-lg bg-orange-700"
         style={{
           marginLeft: "-20%",
           marginTop: "-20%",
         }}
       >
-        <form className="flex flex-col h-full justify-around items-center bg-white rounded-lg">
-          <label className="text-xl">Username:</label>
+        <form className="flex flex-col h-full justify-around items-center bg-white rounded-xl shadow-xl">
+          <label className="text-xl mt-12">Username:</label>
           <input
             type="text"
-            className="bg-femhoot-red rounded-lg focus:outline-none text-white py-4 w-2/3 text-center"
+            className="bg-femhoot-red text-lg font-semibold rounded-lg focus:outline-none text-white py-4 w-2/3 text-center"
             value={userHelper}
             onChange={(e) => {
               setUserHelper(e.target.value);
