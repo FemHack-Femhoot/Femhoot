@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full flex items-end p-8 bottom-0 text-femhoot-dark">
+    <footer className="w-full flex items-end p-8 bottom-0 bg-femhoot-light">
       <p>Made with love by</p>
       <a href="https://github.com/carobatata" className="pl-2">
         Carolina

@@ -2,6 +2,20 @@ import React, { useState } from "react";
 
 export default function ModalBlocker({ user, setUser }) {
   const [userHelper, setUserHelper] = useState("");
+
+  const setUserInLocalStorage = () => {
+    const gameHistory = JSON.parse(localStorage.getItem("gameHistory")) || {};
+    if (!Object.keys(gameHistory).includes(userHelper)) {
+      localStorage.setItem(
+        "gameHistory",
+        JSON.stringify({
+          ...gameHistory,
+          [userHelper]: [0],
+        })
+      );
+    }
+  };
+
   return (
     <div className="fixed w-screen h-screen z-40">
       <div className="opacity-20 bg-femhoot-red w-full h-screen" />
@@ -25,7 +39,10 @@ export default function ModalBlocker({ user, setUser }) {
           <button
             className="border-2 py-2 px-6 rounded-full uppercase text-femhoot-red border-femhoot-red font-semibold"
             style={{ letterSpacing: "3px" }}
-            onClick={() => setUser(userHelper)}
+            onClick={() => {
+              setUser(userHelper);
+              setUserInLocalStorage();
+            }}
           >
             Log in
           </button>

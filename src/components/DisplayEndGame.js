@@ -12,13 +12,17 @@ export default function DisplayEndGame({ setIsEndGame, user }) {
   const stats = [
     {
       title: "Acumulated score",
-      value: gameHistory[user].reduce((a, b) => a + b, 0),
+      value: gameHistory[user].reduce((a, b) => a + b, 0) || 0,
     },
-    { title: "Highest score", value: Math.max(...gameHistory[user]) },
+    { title: "Highest score", value: Math.max(...gameHistory[user]) || 0 },
     {
       title: "Average score",
       value:
-        gameHistory[user].reduce((a, b) => a + b, 0) / gameHistory[user].length,
+        gameHistory[user].length > 1
+          ? gameHistory[user].reduce((a, b) => a + b, 0) /
+              gameHistory[user].length -
+            1
+          : 0,
     },
   ];
   return (

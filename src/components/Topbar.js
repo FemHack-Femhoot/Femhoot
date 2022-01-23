@@ -15,7 +15,7 @@ export default function Topbar({
       <div>
         {user && (
           <span
-            className="font-bold rounded-full bg-white text-femhoot-red py-2 px-6 mx-3 cursor-pointer"
+            className="font-bold rounded-full bg-white border-2 border-white text-femhoot-red py-2 px-6 mx-3 cursor-pointer"
             onClick={() => setIsProfileOpen(true)}
           >
             {user}
@@ -26,7 +26,7 @@ export default function Topbar({
             setIsEndGame(false);
             setUser("");
           }}
-          className="rounded-full font-semibold text-white border-2 border-white border-2 py-2 px-6"
+          className="rounded-full font-semibold text-white border-white border-2 py-2 px-6"
         >
           Logout
         </button>
@@ -34,3 +34,11 @@ export default function Topbar({
     </div>
   );
 }
+
+// import audio from './../assets/sound.mp3';
+
+// const playAudio = () => {
+//   new Audio(audio).play();
+// }
+
+// <button onClick={playAudio}>PLAY AUDIO</button>
