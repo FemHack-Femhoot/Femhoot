@@ -15,7 +15,7 @@ function App() {
     <>
       {!user && <ModalBlocker user={user} setUser={setUser} />}
       <div className="h-full w-screen bg-femhoot-light flex flex-col items-center">
-        <Topbar setUser={setUser} />
+        <Topbar user={user} setUser={setUser} setIsEndGame={setIsEndGame} />
         <div className="flex flex-col h-full items-center justify-center text-gray-700">
           {isEndGame ? (
             <DisplayEndGame setIsEndGame={setIsEndGame} user={user} />

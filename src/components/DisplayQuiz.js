@@ -44,8 +44,12 @@ export default function DisplayQuiz({ isEndGame, setIsEndGame, user }) {
 
   return (
     <div
-      className="flex w-full items-center bg-white p-8 pl-36"
-      style={{ borderTopRightRadius: 100, borderBottomRightRadius: 100 }}
+      className="flex w-full items-center bg-white p-8 pl-36 mt-12"
+      style={{
+        borderTopRightRadius: 100,
+        borderBottomRightRadius: 100,
+        minHeight: "56vh",
+      }}
     >
       <div className="flex flex-col w-4/5">
         <span className="font-bold text-femhoot-green text-xl">

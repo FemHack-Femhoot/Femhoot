@@ -18,8 +18,12 @@ export default function DisplayEndGame({ setIsEndGame, user }) {
         <Confetti width={width} height={height} recycle={false} />
 
         <div
-          className="flex w-full bg-white pl-36 pb-4"
-          style={{ borderTopRightRadius: 100, borderBottomRightRadius: 100 }}
+          className="flex w-full bg-white pl-36 pb-4 mt-12"
+          style={{
+            borderTopRightRadius: 100,
+            borderBottomRightRadius: 100,
+            minWidth: "56vh",
+          }}
         >
           <div className="flex flex-col items-center w-full px-20">
             <PercentageCircle percent={percent} />
@@ -44,7 +48,7 @@ export default function DisplayEndGame({ setIsEndGame, user }) {
               onClick={() => {
                 setIsEndGame(false);
               }}
-              className="bg-femhoot-red rounded-full text-femhoot-light px-6 py-2 uppercase font-semibold my-3 w-3/4"
+              className="nowrap bg-femhoot-red rounded-full text-femhoot-light px-6 py-2 uppercase font-semibold my-3"
               style={{ letterSpacing: "3px" }}
             >
               Play again
