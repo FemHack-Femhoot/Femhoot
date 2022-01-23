@@ -1,15 +1,19 @@
 module.exports = {
   purge: [
-    './src/**/*.html',
-    './src/**/*.js',
-    './src/**/*.jsx',
-    './src/**/*.ts',
-    './src/**/*.tsx',
-    './public/index.html',
+    "./src/**/*.html",
+    "./src/**/*.js",
+    "./src/**/*.jsx",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./public/index.html",
   ],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        display: ["Press Start 2P", "cursive"],
+      },
+    },
   },
   variants: {},
-  plugins: []
-}
+  plugins: [],
+};
