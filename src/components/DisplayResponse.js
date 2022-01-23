@@ -34,7 +34,7 @@ export default function DisplayResponse({
     <div className="w-4/5 flex flex-col">
       {randomResponses.map((item) => (
         <button
-          className="text-femhoot-blue py-1 my-2 w-full border-2 border-femhoot-blue rounded-full hover:bg-femhoot-blue hover:text-white"
+          className="text-femhoot-blue font-semibold text-lg py-1 my-2 w-full border-2 border-femhoot-blue rounded-full hover:bg-femhoot-blue hover:text-white"
           key={item}
           onClick={() => {
             setChosenAnswer(item);

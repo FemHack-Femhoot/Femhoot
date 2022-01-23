@@ -44,18 +44,18 @@ export default function DisplayQuiz({ isEndGame, setIsEndGame, user }) {
 
   return (
     <div
-      className="flex w-full items-center bg-white p-8 pl-36 mt-12"
+      className="flex w-full items-center bg-white p-8 pl-20 mt-12"
       style={{
         borderTopRightRadius: 100,
         borderBottomRightRadius: 100,
         minHeight: "56vh",
       }}
     >
-      <div className="flex flex-col w-4/5">
+      <div className="flex flex-col w-full">
         <span className="font-bold text-femhoot-green text-xl">
           {questionCounter} / 10
         </span>
-        <span className="text-3xl font-semibold text-femhoot-dark mt-1 mb-6">
+        <span className="text-2xl font-semibold text-femhoot-dark mt-1 mb-6">
           {data[questionNumbers.slice(-1)]?.question}
         </span>
         <DisplayResponse

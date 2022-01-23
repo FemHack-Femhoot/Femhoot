@@ -2,8 +2,8 @@ export default function CloseIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="30pt"
-      height="30pt"
+      width="14pt"
+      height="14pt"
       viewBox="0 0 311 311.077"
     >
       <path

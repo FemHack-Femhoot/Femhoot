@@ -36,7 +36,12 @@ function App() {
                 setIsEndGame={setIsEndGame}
                 user={user}
               />
-              <img src={Image} alt={"FemHoot"} className="mx-24" />
+              <img
+                src={Image}
+                alt={"FemHoot"}
+                className="mx-12 mt-12"
+                style={{ transform: "scale(0.75)" }}
+              />
             </div>
           )}
           <div className="mt-8 w-screen flex justify-between">

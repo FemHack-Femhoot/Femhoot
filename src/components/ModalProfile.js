@@ -28,19 +28,20 @@ export default function ModalProfile({ user, setIsProfileOpen }) {
         onClick={() => setIsProfileOpen(false)}
       />
       <div
-        className="inset-1/2 bg-femhoot-blue text-white w-2/5 absolute m-auto rounded-lg bg-orange-700 shadow-xl flex flex-col justify-around"
+        className="inset-1/2 bg-femhoot-blue text-white w-3/5 h-4/5 absolute m-auto rounded-lg bg-orange-700 shadow-xl flex flex-col justify-around p-12"
         style={{
-          marginLeft: "-20%",
+          marginLeft: "-30%",
           marginTop: "-20%",
         }}
       >
         <div
-          className="absolute right-0 top-0 -mr-10 -mt-10"
+          className="absolute right-0 top-0 mr-6 mt-6"
+          style={{ width: 10, height: 10 }}
           onClick={() => setIsProfileOpen(false)}
         >
           <CloseIcon />
         </div>
-        <div className="w-full flex px-6 items-center justify-center">
+        <div className="w-full flex px-6 items-center justify-center mb-12">
           <img src={Avatar} alt="" className="w-40 h-40 mr-12" />
           <span className="text-3xl text-center font-semibold capitalize">
             {user}
@@ -55,7 +56,7 @@ export default function ModalProfile({ user, setIsProfileOpen }) {
                 key={item?.title}
               >
                 <span className="nowrap">{item?.title}</span>
-                <span className="text-xl font-bold">{item?.value}</span>
+                <span className="text-3xl font-bold">{item?.value}</span>
               </div>
             ))}
           </div>

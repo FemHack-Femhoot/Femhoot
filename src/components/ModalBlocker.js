@@ -27,7 +27,9 @@ export default function ModalBlocker({ user, setUser }) {
         }}
       >
         <div className="flex flex-col h-full justify-around items-center bg-white rounded-xl shadow-xl">
-          <label className="text-xl mt-12">Username:</label>
+          <label className="text-xl mt-12 font-semibold text-femhoot-blue">
+            Type your username and start playing
+          </label>
           <input
             type="text"
             className="bg-femhoot-red text-lg font-semibold rounded-lg focus:outline-none text-white py-4 w-2/3 text-center"
@@ -37,7 +39,7 @@ export default function ModalBlocker({ user, setUser }) {
             }}
           />
           <button
-            className="border-2 py-2 px-6 rounded-full uppercase text-femhoot-red border-femhoot-red font-semibold"
+            className="border-2 py-2 px-6 rounded-full uppercase text-femhoot-red border-femhoot-red font-bold text-lg"
             style={{ letterSpacing: "3px" }}
             onClick={() => {
               setUser(userHelper);
