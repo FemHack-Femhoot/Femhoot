@@ -34,11 +34,3 @@ export default function Topbar({
     </div>
   );
 }
-
-// import audio from './../assets/sound.mp3';
-
-// const playAudio = () => {
-//   new Audio(audio).play();
-// }
-
-// <button onClick={playAudio}>PLAY AUDIO</button>

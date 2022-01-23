@@ -27,7 +27,7 @@ export default function ModalProfile({ user, setIsProfileOpen }) {
         onClick={() => setIsProfileOpen(false)}
       />
       <div
-        className="inset-1/2 bg-femhoot-blue text-white w-2/5 absolute m-auto rounded-lg bg-orange-700 shadow-xl"
+        className="inset-1/2 bg-femhoot-blue text-white w-2/5 absolute m-auto rounded-lg bg-orange-700 shadow-xl flex flex-col justify-around"
         style={{
           marginLeft: "-20%",
           marginTop: "-20%",
@@ -39,7 +39,9 @@ export default function ModalProfile({ user, setIsProfileOpen }) {
         >
           <CloseIcon />
         </div>
-        <span className="text-3xl text-center">{user}</span>
+        <span className="text-3xl text-center font-semibold capitalize">
+          {user}
+        </span>
         <div className="flex ">
           <div className="flex w-full justify-center mb-4">
             {stats.map((item) => (

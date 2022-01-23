@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PercentageCircle from "./PercentageCircle";
 import Confetti from "react-confetti";
 import Hand from "./../img/11.svg";
+import audio from "./../assets/sound.mp3";
 
 const height = window.innerHeight;
 const width = window.innerWidth;
@@ -25,6 +26,11 @@ export default function DisplayEndGame({ setIsEndGame, user }) {
           : 0,
     },
   ];
+
+  useEffect(() => {
+    new Audio(audio).play();
+  }, []);
+
   return (
     <>
       <div className="flex w-screen items-center">

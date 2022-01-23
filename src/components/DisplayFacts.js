@@ -9,7 +9,7 @@ export default function DisplayFacts() {
   );
 
   return (
-    <div className="flex justify-between items-center px-24 w-full">
+    <div className="flex justify-between items-center px-24 w-full bg-femhoot-light">
       <div className="flex items-center flex-1" style={{ height: 220 }}>
         <div className="relative mr-8">
           <img src={Image} alt="quotes" className="absolute z-10 right-0" />
