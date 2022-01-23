@@ -7,6 +7,16 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.topbar h1 {
+  font-family: "Press Start 2P", cursive;
+}
 
 .block-with-text {
   -webkit-box-orient: vertical;

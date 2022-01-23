@@ -3,37 +3,37 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What does GHz stand for?",
-      "correct_answer": "Gigahertz",
-      "incorrect_answers": ["Gigahotz", "Gigahetz", "Gigahatz"]
+      "question": "How many jobs in Technology were held by women in 2021?",
+      "correct_answer": "25%",
+      "incorrect_answers": ["20%", "40%", "35%"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
-      "correct_answer": "C#",
-      "incorrect_answers": ["Java", "C++", "Objective-C"]
+      "question": "How many tech startups have at least one woman on the board of directors?",
+      "correct_answer": "37%",
+      "incorrect_answers": ["42%", "32%", "28%"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In web design, what does CSS stand for?",
-      "correct_answer": "Cascading Style Sheet",
-      "incorrect_answers": ["Counter Strike: Source", "Corrective Style Sheet", "Computer Style Sheet"]
+      "question": "Which percentaje of startups across the world were founded by women?",
+      "correct_answer": "20%",
+      "incorrect_answers": ["15%", "10%", "25%"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
-      "correct_answer": "Neptune",
-      "incorrect_answers": ["Enceladus", "Pollux", "Saturn"]
+      "question": "Who was the World's First Computer Programmer?",
+      "correct_answer": "Ada Lovelace",
+      "incorrect_answers": ["Ángela Ruiz Robles", "Betty Snyder Holberton", "Gladys Mae West"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
-      "correct_answer": "&lt;marquee&gt;&lt;\/marquee&gt;",
-      "incorrect_answers": ["&lt;scroll&gt;&lt;\/scroll&gt;", "&lt;move&gt;&lt;\/move&gt;", "&lt;slide&gt;&lt;\/slide&gt;"]
+      "question": "Which country has the largest population of female developers?",
+      "correct_answer": "India",
+      "incorrect_answers": ["China", "Italy;", "United States"]
   }, {
       "category": "Science: Computers",
       "type": "multiple",

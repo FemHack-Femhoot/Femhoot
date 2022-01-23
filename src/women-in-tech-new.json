@@ -1,16 +1,23 @@
 [
-  {   
-    "id": "565166",
-    "name": "Adele Goldberg",
-    "details": "Adele Goldberg is a computer scientist who participated in the development of the programming language Smalltalk-80 and various concepts related to object-oriented programming while a researcher at the Xerox Palo Alto Research Center, PARC, in the 1970s. Goldberg began working at PARC in 1973 as a laboratory and research assistant, and eventually became manager of the System Concepts Laboratory where she, Alan Kay, and others developed Smalltalk-80, which both developed the object-oriented approach of Simula 67 and introduced a programming environment of overlapping windows on graphic display screens. Not only was Smalltalk's innovative format simpler to use, it was also customizable and objects could be transferred among applications with minimal effort. Goldberg and Kay also were involved in the development of design templates, forerunners of the design patterns commonly used in software design.",
-    "website": "http://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)",
-    "image_path": "http://www.computerhope.com/people/pictures/adele_goldberg.jpg",
-    "image_width": "150",
-    "tags": "Ada Lovelace Day,History of Computing,Women in Tech"
+  {
+
+    "title": "Ada Lovelace",
+    "fact": "She created the first algorithm intended to be processed by a machine, which is why she is considered the first computer programmer",
+    "image_path": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
   },
   {
-    "id": "565195",
-    "name": "Anita Borg",
+    
+    "title": "Adele Goldberg",
+    "fact": "Is a computer scientist who participated in the development of the programming language Smalltalk-80 and various concepts related to object-oriented programming while a researcher at the Xerox Palo Alto Research Center, PARC, in the 1970s.",
+    "image_path": "http://www.computerhope.com/people/pictures/adele_goldberg.jpg"
+    
+  },
+  {
+    "title": "Anita Borg",
+    "fact": "She founded the Institute for Women and Technology (now the Anita Borg Institute for Women and Technology) and the Grace Hopper Celebration of Women in Computing.",
+    "image_path": "http://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Anita_Borg.jpg/220px-Anita_Borg.jpg"
+
+",
     "details": "Anita Borg was an American computer scientist. She founded the Institute for Women and Technology (now the Anita Borg Institute for Women and Technology) and the Grace Hopper Celebration of Women in Computing. She was born Anita Borg Naffz in Chicago, Illinois. She grew up in Palatine, Illinois; Kaneohe, Hawaii; and Mukilteo, Washington. Borg got her first programming job in 1969. Although she loved math while growing up, she did not originally intend to go into computer science and taught herself to program while working at a small insurance company. She earned a doctorate in computer science from New York University in 1981. Her dissertation was on operating system synchronization efficiency.",
     "website": "http://en.wikipedia.org/wiki/Anita_Borg",
     "image_path": "http://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Anita_Borg.jpg/220px-Anita_Borg.jpg",

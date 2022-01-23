@@ -8,11 +8,7 @@ module.exports = {
     "./public/index.html",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        display: ["Press Start 2P", "cursive"],
-      },
-    },
+    extend: {},
   },
   variants: {},
   plugins: [],
